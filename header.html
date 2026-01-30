@@ -1,0 +1,38 @@
+<h1 style="color: dodgerblue; text-align: center;">FamilyCare Medical Center</h1>
+
+<nav>
+    <ul class="nav">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="appointments.php">Appointments</a></li>
+    </ul>
+</nav>
+
+<style>
+    /* Remove default list styling */
+    .nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;              /* makes the list horizontal */
+        justify-content: center;    /* centers the boxes */
+        gap: 20px;                  /* space between boxes */
+    }
+
+    /* Style each navigation link as a box */
+    .nav li a {
+        display: block;
+        padding: 10px 25px;
+        background-color: dodgerblue;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    /* Hover effect */
+    .nav li a:hover {
+        background-color: deepskyblue;
+        transform: scale(1.05);
+    }
+</style>
